@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رویال پرداز - خدمات اینترنتی</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Vazir', sans-serif;
+      background: linear-gradient(to bottom, #1e3a8a, #3b82f6);
+      color: #ffffff;
+    }
+    .royal-header {
+      background: url('https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') no-repeat center center;
+      background-size: cover;
+      border-bottom: 4px solid gold;
+    }
+    .royal-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 2px solid gold;
+      transition: transform 0.3s ease-in-out;
+    }
+    .royal-card:hover {
+      transform: scale(1.05);
+    }
+    .royal-footer {
+      background: #1e3a8a;
+      border-top: 4px solid gold;
+    }
+    @font-face {
+      font-family: 'Vazir';
+      src: url('https://cdn.fontcdn.ir/Fonts/Vazir/Vazir.woff2') format('woff2');
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="royal-header py-16 text-center">
+    <h1 class="text-5xl font-bold text-white drop-shadow-lg">رویال پرداز</h1>
+    <p class="text-xl mt-4 text-yellow-300">ارائه‌دهنده خدمات اینترنتی با کیفیت سلطنتی</p>
+  </header>
+
+  <main class="flex-grow container mx-auto px-4 py-12">
+    <section class="text-center mb-12">
+      <h2 class="text-3xl font-semibold mb-6">خدمات ما</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="royal-card p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold mb-4 text-yellow-300">سرویس P2P بدون تجهیزات</h3>
+          <p class="mb-4">بهترین سرویس پی‌تو‌پی با سرعت بالا و بدون نیاز به تجهیزات اضافی. برای اطلاعات بیشتر به لینک زیر مراجعه کنید:</p>
+          <a href="https://royalpardaz.github.io/p2p_sell/" class="text-yellow-400 hover:text-yellow-200 underline">مشاهده جزئیات</a>
+        </div>
+        <!-- Service 2 -->
+        <div class="royal-card p-6 rounded-lg shadow-lg opacity-70">
+          <h3 class="text-2xl font-bold mb-4 text-yellow-300">سرویس VPN اختصاصی</h3>
+          <p class="mb-4">به زودی: تجربه اینترنت امن و پرسرعت با VPN اختصاصی ما</p>
+          <p class="text-yellow-400">به زودی...</p>
+        </div>
+        <!-- Service 3 -->
+        <div class="royal-card p-6 rounded-lg shadow-lg opacity-70">
+          <h3 class="text-2xl font-bold mb-4 text-yellow-300">سرویس کلود گیمینگ</h3>
+          <p class="mb-4">به زودی: بازی‌های آنلاین با کیفیت بالا بدون نیاز به سخت‌افزار قوی</p>
+          <p class="text-yellow-400">به زودی...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center">
+      <h2 class="text-3xl font-semibold mb-6">چرا رویال پرداز؟</h2>
+      <p class="text-lg max-w-2xl mx-auto">رویال پرداز با بهره‌گیری از فناوری‌های پیشرفته و تیمی متخصص، خدماتی با کیفیت و پایدار ارائه می‌دهد تا تجربه‌ای سلطنتی از اینترنت داشته باشید.</p>
+    </section>
+  </main>
+
+  <footer class="royal-footer py-6 text-center">
+    <p>&copy; 2025 رویال پرداز. تمامی حقوق محفوظ است.</p>
+    <p class="mt-2">تماس با ما: info@royalpardaz.com</p>
+  </footer>
+</body>
+</html>
